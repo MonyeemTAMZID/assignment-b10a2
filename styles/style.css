@@ -1,4 +1,8 @@
 /* shared styles */
+@font-face {
+    font-family: myFont;
+    src: url('../font/Miama.ttf');
+}
 *{
     background-color:black ;
     font-family: "Inter", sans-serif;
@@ -6,6 +10,7 @@
 body{
     color: white;
 }
+
 .container{
     width: 90%;
     margin: 3.5rem auto;
@@ -16,14 +21,34 @@ body{
     font-weight: 800;
     font-style: italic;
 }
+.btn-secondary{
+    padding: 0.6rem 1.4rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 46px;
+    background: rgb(11, 3, 2);
+    border: 1px solid white;
+}
 .btn-primary{
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 1.4rem;
     color: white;
     font-weight: 600;
     font-size: 1rem;
     border-radius: 46px;
     background: rgb(230, 83, 60);
     border: none;
+}
+.shape{
+    font-size: 6.8rem;
+    font-weight: 400;
+    font-family: myFont;
+   
+}
+.para{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    text-align: left;
 }
 /* nav-styles */
 .nav-bar{
@@ -43,3 +68,25 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 }
+.btn-container{
+    display: flex;
+    gap: 1rem;
+}
+/* Header styles part */
+
+.header-container{
+    display: flex;
+    gap: 3rem;
+    
+}
+.header-title{
+    font-size: 4.8rem;
+    font-weight: 900;
+    width: 65%;
+    line-height: 125%;
+    padding: 0px;
+}
+
+ .header-description p{
+    width: 65%
+ }
