@@ -4,10 +4,11 @@
     src: url('../font/Miama.ttf');
 }
 *{
-    background-color:black ;
+    /* background-color:black ; */
     font-family: "Inter", sans-serif;
 }
 body{
+    background-color:black ;
     color: white;
 }
 
@@ -68,11 +69,29 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 }
-.btn-container{
-    display: flex;
-    gap: 1rem;
-}
+
 /* Header styles part */
+#badge{
+    /* box-sizing: border-box; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    text-align: center;
+    width: 50%;
+    height: 4rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px 10px;
+    margin-left: -100px;
+    margin-top:-150px ;
+}
+#year{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
 
 .header-container{
     display: flex;
