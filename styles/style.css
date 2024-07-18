@@ -71,6 +71,9 @@ body{
 }
 
 /* Header styles part */
+header img{
+    width: 100%;
+}
 #year-2{
     font-size: 2.5rem;
     font-weight: 900;
@@ -136,3 +139,42 @@ body{
  .header-description p{
     width: 65%
  }
+/* change-your habits section */
+.section-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.section-topic p{
+    margin-top: 0px;
+    margin-bottom: 5rem;
+}
+.section-topic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding-top: 1.5rem; */
+}
+.section-img-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+.img-descript{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.img-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.img-box{
+    width: 100%;
+    
+}
+.img-box img{
+    border-radius: 360px;
+}
