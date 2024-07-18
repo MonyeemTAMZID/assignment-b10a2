@@ -71,6 +71,25 @@ body{
 }
 
 /* Header styles part */
+#year-2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+#badge-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 4rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 10px 10px;
+    margin-left: 200px;
+    margin-top:-300px ;
+}
 .circle{
     height: 2rem;
     width: 2rem;
@@ -85,7 +104,6 @@ body{
 }
 #badge{
     display: flex;
-    
     align-items: center;
     width: 50%;
     height: 4rem;
