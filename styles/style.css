@@ -3,6 +3,7 @@
     font-family: myFont;
     src: url('../font/Miama.ttf');
 }
+
 *{
     /* background-color:black ; */
     font-family: "Inter", sans-serif;
@@ -164,6 +165,9 @@ header img{
     gap: 2rem;
 }
 .img-descript{
+    margin-top: -1rem;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
 }
@@ -178,3 +182,165 @@ header img{
 .img-box img{
     border-radius: 360px;
 }
+/* Extra Mile style */
+.extra-mile{
+    margin-top: 6.25rem;
+    
+    height: 24rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15rem;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    /* padding: 1rem; */
+}
+.extra-mile-topic{
+    width: 27.75rem;
+}
+.extra-mile-title{
+    
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: 0%;
+    margin-bottom: 1rem;
+}
+.extra-mile-descript{
+    /* width: 27.75rem; */
+    color: rgba(255, 255, 255, 0.5);
+}
+.extra-mile img{
+    border-radius: 1.2rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+.extra-mile-img{
+    height: 19.5rem;
+    width: 22.9rem;
+}
+/* BMI styles */
+.bmi-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 0.5rem;
+}
+.bmi-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.bmi{
+    display: flex;
+    justify-content: center;
+}
+/* Bmi calculate styles */
+.bmi-calculate{
+    /* width: 90%; */
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10rem;
+    padding: 3rem;
+}
+table {
+    border-collapse: collapse;
+    width: 19.4rem;
+    height: 13.5rem;
+  }
+  td,
+  th {
+    
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    padding: 1rem ;
+  }
+  td{
+    color:rgba(255, 255, 255, 0.5) ;
+  }
+  .select-box{
+    font-weight: 200;
+    color:rgba(255, 255, 255, 0.5) ;
+    backdrop-filter: blur(2rem);
+    background: rgba(83, 83, 83, 0.54);
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+  }
+  .select-box-2{
+    font-weight: 200;
+    color:rgba(255, 255, 255, 0.5) ;
+    backdrop-filter: blur(2rem);
+    background: rgba(83, 83, 83, 0.54);
+    border: none;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    width: 30.3rem;
+    border-radius: 0.5rem;
+  }
+  .second-bmi{
+    /* margin-top: -3rem; */
+    
+  }
+  .second-bmi input{
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5) ;
+    backdrop-filter: blur(2rem);
+    background: rgba(83, 83, 83, 0.54);
+    border: none;
+    padding: 1rem;
+    width: 13rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .first-title{
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: 0;
+  }
+  .btn-calculate{
+    padding: 1rem 2rem ;
+    /* padding: 0.6rem 1.4rem; */
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 14rem;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    border: none;
+  }
+  /* Meet out trainers */
+  .trainers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .trainer-topic-title{
+    margin: 1rem auto;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .trainer-img-box{
+    height: 15rem;
+    width: 20rem;
+  }
+  .trainer-img-box img{
+    width: 100%;
+    height: 15rem;
+    filter: brightness(78%);
+    border-radius: 12px;
+  }
+  .trainer-img-container{
+    display: grid;
+    padding: 0px;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 8rem;
+  }
+  /* media styles for phone */
+  @media screen and (max-width:576px) {
+    .nav-bar{
+        flex-direction: column;
+    }
+    
+  }
