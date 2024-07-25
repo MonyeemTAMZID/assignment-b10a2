@@ -278,10 +278,7 @@ table {
     width: 30.3rem;
     border-radius: 0.5rem;
   }
-  .second-bmi{
-    /* margin-top: -3rem; */
-    
-  }
+  
   .second-bmi input{
     font-weight: 400;
     color:rgba(255, 255, 255, 0.5) ;
@@ -312,9 +309,10 @@ table {
   /* Meet out trainers */
   .trainers{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
   }
   .trainer-topic-title{
     margin: 1rem auto;
@@ -324,18 +322,75 @@ table {
   .trainer-img-box{
     height: 15rem;
     width: 20rem;
+    
   }
-  .trainer-img-box img{
+  
+  .trainer-name{
+    justify-content: flex-start;
+    position: relative;
+    top: 9rem;
+    right: 7rem;
+
+
+  }
+  .first{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../images/trainer1.png');
+    background-size: cover;
+    /* background-repeat: n; */
     width: 100%;
+    /* filter: brightness(78%); */
+    border-radius: 18px;
     height: 15rem;
-    filter: brightness(78%);
-    border-radius: 12px;
-  }
+    width: 20rem;
+}
+  .second{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../images/trainer2.png');
+    background-size: cover;
+    /* background-repeat: n; */
+    width: 100%;
+    /* filter: brightness(78%); */
+    border-radius: 18px;
+}
+  .third{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../images/trainer3.png');
+    background-size: cover;
+    /* background-repeat: n; */
+    width: 100%;
+    /* filter: brightness(78%); */
+    border-radius: 18px;
+}
+  .forth{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../images/trainer4.png');
+    background-size: cover;
+    /* background-repeat: n; */
+    width: 100%;
+    /* filter: brightness(78%); */
+    border-radius: 18px;
+}
+  .fifth{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../images/trainer5.png');
+    background-size: cover;
+    /* background-repeat: n; */
+    width: 100%;
+    /* filter: brightness(78%); */
+    border-radius: 18px;
+}
+  .sixth{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../images/trainer6.png');
+    background-size: cover;
+    /* background-repeat: n; */
+    width: 100%;
+    /* filter: brightness(78%); */
+    border-radius: 18px;
+}
   .trainer-img-container{
+    margin-top: 4rem;
     display: grid;
     padding: 0px;
+    gap: 2rem;
     grid-template-columns: repeat(3,1fr);
-    row-gap: 8rem;
+    row-gap: 2rem;
+    background: rgba(255, 255, 255, 0.1);
   }
   /* media styles for phone */
   @media screen and (max-width:576px) {
