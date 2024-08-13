@@ -404,24 +404,56 @@ table {
     background: rgba(255, 255, 255, 0.1);
   }
   /* section of my own */
-  #video{
-    /* position: absolute;
+  /* #video{
+     position: absolute;
     width: 100%;
     left: 0%;
-    z-index: -1; */
-    /* margin-top: 3rem; */
-    /* bottom: 0;
+    z-index: -1; 
+     margin-top: 3rem;
+     bottom: 0;
     right: 0;
-    z-index: -1; */
-  }
+    z-index: -1;
+  } */
 .membership-topic{
   text-align: center;
   margin-top: 8rem;
 }
-#membership-descript{
+.membership-descript{
   color: rgba(255, 255, 255, 0.5); 
 }
-
+.membership-card-container{
+  display: flex;
+  gap: 1.5rem;
+  text-align: center;
+}
+.membership-card{
+  border:2px solid white ;
+  padding: 1.5rem;
+  box-shadow: 4px 5px 8px;
+}
+.membership-card img{
+  width: 100%;
+  border-radius: 30%;
+}
+.my-img{
+  margin-left: 2rem;
+  height: 15rem;
+  width: 20rem;
+}
+.membership-details{
+  margin-bottom: 2rem;
+}
+.membership-header{
+  margin-bottom: 3.5rem;
+  
+}
+.mem-time{
+  color:rgb(230, 83, 60) ;
+}
+.mem-brief{
+  color:rgb(230, 83, 60);
+  font-weight: 800;
+}
   /* media styles for phone */
   @media screen and (max-width:576px) {
     .nav-bar{
