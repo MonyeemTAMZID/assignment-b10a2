@@ -70,6 +70,18 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 }
+.nav-content a{
+  text-decoration: none;
+  color: white;
+}
+.ham-menu{
+  display: none;
+  
+}
+.ham-menu img{
+  height: 2rem;
+  width: 2rem;
+}
 
 /* Header styles part */
 header img{
@@ -91,7 +103,7 @@ header img{
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     padding: 10px 10px;
-    margin-left: 200px;
+    margin-left: 130px;
     margin-top:-300px ;
 }
 .circle{
@@ -132,7 +144,8 @@ header img{
 .header-title{
     font-size: 4.8rem;
     font-weight: 900;
-    width: 55%;
+    /* width: 55%;
+    line-height: 125%; */
     line-height: 125%;
     padding: 0px;
 }
@@ -404,16 +417,7 @@ table {
     background: rgba(255, 255, 255, 0.1);
   }
   /* section of my own */
-  /* #video{
-     position: absolute;
-    width: 100%;
-    left: 0%;
-    z-index: -1; 
-     margin-top: 3rem;
-     bottom: 0;
-    right: 0;
-    z-index: -1;
-  } */
+  
 .membership-topic{
   text-align: center;
   margin-top: 8rem;
@@ -428,9 +432,9 @@ table {
   margin-bottom: 5.5rem;
 }
 .membership-card{
-  border:2px solid white ;
+  border:2px solid rgb(230, 83, 60) ;
   padding: 1.5rem;
-  box-shadow: 4px 5px 8px;
+  box-shadow: 4px 5px 8px rgb(230, 83, 60);
 }
 .membership-card img{
   width: 100%;
@@ -493,10 +497,117 @@ hr{
 .links{
   font-size: 23px;
 }
-  /* media styles for phone */
-  @media screen and (max-width:576px) {
-    .nav-bar{
-        flex-direction: column;
-    }
+  
+@media screen and (max-width: 576px) {
+  /* nav styles */
+  .ham-menu{
+    display: block;
+   
+   }
+  .nav-content{
+    display: none;
+  }
+  /* header styles */
+  .header-container{
+    margin-top: 1rem;
+    flex-direction: column;
     
   }
+  .header-description{
+    margin-top: -5rem;
+    
+  }
+  .header-title{
+    font-size: 3rem;
+    width: 100%;
+  }
+  .header-description p{
+    width: 100%;
+  }
+  #badge{
+    margin-left: 0px;
+  }
+  /* change your habits section */
+  .section-topic{
+    padding: 1rem;
+  }
+  .section-img-container{
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .section-topic{
+    margin-top: 15rem;
+  }
+  .section-title{
+    font-size: 2rem;
+  }
+  /* run an extra Mile section */
+  .extra-mile{
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    height: auto;
+  }
+  .extra-mile-topic,.extra-mile-img{
+    width: 100%;
+  }
+  .extra-mile button{
+    margin-top: 0;
+    width: 100%;
+    height: 3.5rem;
+  }
+  /* Bmi section */
+  .bmi-calculate{
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+  table{
+    width: 100%;
+  }
+  .second-bmi input{
+    width: 9.5rem;
+  }
+  .select-box{
+    width: 11.5rem;
+  }
+  .select-box-2{
+    width: 23.3rem;
+  }
+  
+  .btn-calculate{
+    margin-top: -1rem;
+  }
+  /* Meet Our team */
+  .trainer-topic{
+    text-align: center;
+  }
+  .trainer-topic-title{
+    font-size: 2.5rem;
+  }
+  .trainer-topic p{
+    text-align: center;
+  }
+  .trainer-img-container{
+    display: flex;
+    flex-direction: column;
+  }
+  /* My section */
+  .membership-topic{
+    text-align: center;
+  }
+  .membership-card-container{
+    flex-direction: column;
+  }
+  .my-img{
+    margin-left: -0rem;
+  }
+  /* footer section */
+  .footer-container{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+}
